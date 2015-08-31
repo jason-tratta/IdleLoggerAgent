@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		383705BD1B948E7700271DD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 383705BC1B948E7700271DD6 /* main.m */; };
+		383705C21B948E7700271DD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 383705C11B948E7700271DD6 /* Assets.xcassets */; };
+		383705D01B948E7700271DD6 /* IdleLoggerAgentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 383705CF1B948E7700271DD6 /* IdleLoggerAgentTests.m */; };
+		383705DB1B948E7700271DD6 /* IdleLoggerAgentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 383705DA1B948E7700271DD6 /* IdleLoggerAgentUITests.m */; };
+		383705EA1B948EAF00271DD6 /* IdleTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 383705E91B948EAF00271DD6 /* IdleTime.m */; settings = {ASSET_TAGS = (); }; };
+		383705ED1B948EBC00271DD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 383705EC1B948EBC00271DD6 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		383705EF1B948F4100271DD6 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383705EE1B948F4100271DD6 /* IOKit.framework */; };
+		383705F11B948F4900271DD6 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383705F01B948F4900271DD6 /* CoreServices.framework */; };
+		383705F31B948F8C00271DD6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 383705F21B948F8C00271DD6 /* MainMenu.xib */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		383705CC1B948E7700271DD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 383705AD1B948E7700271DD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 383705B41B948E7700271DD6;
+			remoteInfo = IdleLoggerAgent;
+		};
+		383705D71B948E7700271DD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 383705AD1B948E7700271DD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 383705B41B948E7700271DD6;
+			remoteInfo = IdleLoggerAgent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		383705B51B948E7700271DD6 /* IdleLoggerAgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdleLoggerAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		383705BC1B948E7700271DD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		383705C11B948E7700271DD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		383705C61B948E7700271DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		383705CB1B948E7700271DD6 /* IdleLoggerAgentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdleLoggerAgentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		383705CF1B948E7700271DD6 /* IdleLoggerAgentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IdleLoggerAgentTests.m; sourceTree = "<group>"; };
+		383705D11B948E7700271DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		383705D61B948E7700271DD6 /* IdleLoggerAgentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdleLoggerAgentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		383705DA1B948E7700271DD6 /* IdleLoggerAgentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IdleLoggerAgentUITests.m; sourceTree = "<group>"; };
+		383705DC1B948E7700271DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		383705E81B948EAF00271DD6 /* IdleTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdleTime.h; sourceTree = "<group>"; };
+		383705E91B948EAF00271DD6 /* IdleTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdleTime.m; sourceTree = "<group>"; };
+		383705EB1B948EBC00271DD6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		383705EC1B948EBC00271DD6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		383705EE1B948F4100271DD6 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		383705F01B948F4900271DD6 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		383705F21B948F8C00271DD6 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenu.xib; path = ../MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		383705B21B948E7700271DD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383705F11B948F4900271DD6 /* CoreServices.framework in Frameworks */,
+				383705EF1B948F4100271DD6 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		383705C81B948E7700271DD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		383705D31B948E7700271DD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		383705AC1B948E7700271DD6 = {
+			isa = PBXGroup;
+			children = (
+				383705F01B948F4900271DD6 /* CoreServices.framework */,
+				383705EE1B948F4100271DD6 /* IOKit.framework */,
+				383705B71B948E7700271DD6 /* IdleLoggerAgent */,
+				383705CE1B948E7700271DD6 /* IdleLoggerAgentTests */,
+				383705D91B948E7700271DD6 /* IdleLoggerAgentUITests */,
+				383705B61B948E7700271DD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		383705B61B948E7700271DD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				383705B51B948E7700271DD6 /* IdleLoggerAgent.app */,
+				383705CB1B948E7700271DD6 /* IdleLoggerAgentTests.xctest */,
+				383705D61B948E7700271DD6 /* IdleLoggerAgentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		383705B71B948E7700271DD6 /* IdleLoggerAgent */ = {
+			isa = PBXGroup;
+			children = (
+				383705EB1B948EBC00271DD6 /* AppDelegate.h */,
+				383705EC1B948EBC00271DD6 /* AppDelegate.m */,
+				383705E81B948EAF00271DD6 /* IdleTime.h */,
+				383705E91B948EAF00271DD6 /* IdleTime.m */,
+				383705F21B948F8C00271DD6 /* MainMenu.xib */,
+				383705C11B948E7700271DD6 /* Assets.xcassets */,
+				383705C61B948E7700271DD6 /* Info.plist */,
+				383705BB1B948E7700271DD6 /* Supporting Files */,
+			);
+			path = IdleLoggerAgent;
+			sourceTree = "<group>";
+		};
+		383705BB1B948E7700271DD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				383705BC1B948E7700271DD6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		383705CE1B948E7700271DD6 /* IdleLoggerAgentTests */ = {
+			isa = PBXGroup;
+			children = (
+				383705CF1B948E7700271DD6 /* IdleLoggerAgentTests.m */,
+				383705D11B948E7700271DD6 /* Info.plist */,
+			);
+			path = IdleLoggerAgentTests;
+			sourceTree = "<group>";
+		};
+		383705D91B948E7700271DD6 /* IdleLoggerAgentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				383705DA1B948E7700271DD6 /* IdleLoggerAgentUITests.m */,
+				383705DC1B948E7700271DD6 /* Info.plist */,
+			);
+			path = IdleLoggerAgentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		383705B41B948E7700271DD6 /* IdleLoggerAgent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 383705DF1B948E7700271DD6 /* Build configuration list for PBXNativeTarget "IdleLoggerAgent" */;
+			buildPhases = (
+				383705B11B948E7700271DD6 /* Sources */,
+				383705B21B948E7700271DD6 /* Frameworks */,
+				383705B31B948E7700271DD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IdleLoggerAgent;
+			productName = IdleLoggerAgent;
+			productReference = 383705B51B948E7700271DD6 /* IdleLoggerAgent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		383705CA1B948E7700271DD6 /* IdleLoggerAgentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 383705E21B948E7700271DD6 /* Build configuration list for PBXNativeTarget "IdleLoggerAgentTests" */;
+			buildPhases = (
+				383705C71B948E7700271DD6 /* Sources */,
+				383705C81B948E7700271DD6 /* Frameworks */,
+				383705C91B948E7700271DD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				383705CD1B948E7700271DD6 /* PBXTargetDependency */,
+			);
+			name = IdleLoggerAgentTests;
+			productName = IdleLoggerAgentTests;
+			productReference = 383705CB1B948E7700271DD6 /* IdleLoggerAgentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		383705D51B948E7700271DD6 /* IdleLoggerAgentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 383705E51B948E7700271DD6 /* Build configuration list for PBXNativeTarget "IdleLoggerAgentUITests" */;
+			buildPhases = (
+				383705D21B948E7700271DD6 /* Sources */,
+				383705D31B948E7700271DD6 /* Frameworks */,
+				383705D41B948E7700271DD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				383705D81B948E7700271DD6 /* PBXTargetDependency */,
+			);
+			name = IdleLoggerAgentUITests;
+			productName = IdleLoggerAgentUITests;
+			productReference = 383705D61B948E7700271DD6 /* IdleLoggerAgentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		383705AD1B948E7700271DD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jason Tratta";
+				TargetAttributes = {
+					383705B41B948E7700271DD6 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					383705CA1B948E7700271DD6 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 383705B41B948E7700271DD6;
+					};
+					383705D51B948E7700271DD6 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 383705B41B948E7700271DD6;
+					};
+				};
+			};
+			buildConfigurationList = 383705B01B948E7700271DD6 /* Build configuration list for PBXProject "IdleLoggerAgent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 383705AC1B948E7700271DD6;
+			productRefGroup = 383705B61B948E7700271DD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				383705B41B948E7700271DD6 /* IdleLoggerAgent */,
+				383705CA1B948E7700271DD6 /* IdleLoggerAgentTests */,
+				383705D51B948E7700271DD6 /* IdleLoggerAgentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		383705B31B948E7700271DD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383705C21B948E7700271DD6 /* Assets.xcassets in Resources */,
+				383705F31B948F8C00271DD6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		383705C91B948E7700271DD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		383705D41B948E7700271DD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		383705B11B948E7700271DD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383705EA1B948EAF00271DD6 /* IdleTime.m in Sources */,
+				383705BD1B948E7700271DD6 /* main.m in Sources */,
+				383705ED1B948EBC00271DD6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		383705C71B948E7700271DD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383705D01B948E7700271DD6 /* IdleLoggerAgentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		383705D21B948E7700271DD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383705DB1B948E7700271DD6 /* IdleLoggerAgentUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		383705CD1B948E7700271DD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 383705B41B948E7700271DD6 /* IdleLoggerAgent */;
+			targetProxy = 383705CC1B948E7700271DD6 /* PBXContainerItemProxy */;
+		};
+		383705D81B948E7700271DD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 383705B41B948E7700271DD6 /* IdleLoggerAgent */;
+			targetProxy = 383705D71B948E7700271DD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		383705DD1B948E7700271DD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		383705DE1B948E7700271DD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		383705E01B948E7700271DD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = IdleLoggerAgent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IdleLoggerAgent.IdleLoggerAgent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		383705E11B948E7700271DD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = IdleLoggerAgent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IdleLoggerAgent.IdleLoggerAgent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		383705E31B948E7700271DD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = IdleLoggerAgentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IdleLoggerAgent.IdleLoggerAgentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IdleLoggerAgent.app/Contents/MacOS/IdleLoggerAgent";
+			};
+			name = Debug;
+		};
+		383705E41B948E7700271DD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = IdleLoggerAgentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IdleLoggerAgent.IdleLoggerAgentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IdleLoggerAgent.app/Contents/MacOS/IdleLoggerAgent";
+			};
+			name = Release;
+		};
+		383705E61B948E7700271DD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = IdleLoggerAgentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IdleLoggerAgent.IdleLoggerAgentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IdleLoggerAgent;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		383705E71B948E7700271DD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = IdleLoggerAgentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IdleLoggerAgent.IdleLoggerAgentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IdleLoggerAgent;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		383705B01B948E7700271DD6 /* Build configuration list for PBXProject "IdleLoggerAgent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383705DD1B948E7700271DD6 /* Debug */,
+				383705DE1B948E7700271DD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		383705DF1B948E7700271DD6 /* Build configuration list for PBXNativeTarget "IdleLoggerAgent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383705E01B948E7700271DD6 /* Debug */,
+				383705E11B948E7700271DD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		383705E21B948E7700271DD6 /* Build configuration list for PBXNativeTarget "IdleLoggerAgentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383705E31B948E7700271DD6 /* Debug */,
+				383705E41B948E7700271DD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		383705E51B948E7700271DD6 /* Build configuration list for PBXNativeTarget "IdleLoggerAgentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383705E61B948E7700271DD6 /* Debug */,
+				383705E71B948E7700271DD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 383705AD1B948E7700271DD6 /* Project object */;
+}
